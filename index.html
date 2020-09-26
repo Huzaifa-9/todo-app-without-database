@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="background" class="bg1"></div>
+    
+    <label class="toggle-1">
+        <input type="checkbox" onclick="background2()" class="toggle-1__input" />
+        <span class="toggle-1__button"><span class="Te">CHANGE BACKGROUND</span></span>
+        <!-- <div class="bg"></div> -->
+    </label>
+    
+
+    <main id="main">
+
+        <div class="header1">
+            <h1
+                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: black 0px 15px 20px; color: rgb(255, 255, 255);">
+                Todo App</h1>
+        </div>
+
+        <div class="closed">
+            <input id="inp" type="text" placeholder="Enter Todo Task">
+
+            <button id="add" onclick="addItem()">Add Item</button>
+            <button id="Dall" onclick="DeleteAll()">DeleteAll</button>
+
+            
+
+            <ul id="ul">
+
+            </ul>
+        </div>
+
+
+    </main>
+
+</body>
+<script src="app.js"></script>
+
+</html>
